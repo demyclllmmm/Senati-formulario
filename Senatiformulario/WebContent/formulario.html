@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aprenda clase PHP 100% | FrontEnd con Bootstrapp | 949726009 | Caminando hacia el futuro</title>
+	<!--etiqueta para configurara idioma-->
+	<meta charset="utf-8">
+	<!--etiqueta para buscar palabras en la web-->
+	<meta name="keywords" content="Php, Tutoriales, Cursos, Desarrollo, Programación, Diseño, Marketing, Web, Boostrtap, Html5, Css, Javascript, Maquetación, software, internet, posicionamiento seo, posicionamiento sem, identidad corporativa, tipos , clases, que es. como es, cuanto es ,oferta, prenios, damas caballeros, administración, social media, empresas ,Perú, hosting, php caracteristicas,como funciona php,php descargar,para que sirve php,historia de php,php manual,php lenguaje de programacion,php ejemplos">
+	<!--etiqueta para autor del sitio web-->
+	<meta name="author" content="Luque Chambi">
+	<!-- Etiquetas adaptabilidad y responsivo -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!-- Etiquetas compatibilidad con navegadores antiguos -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Etiquetas SEO -->
+    <meta name="description" content="Aprender a programar PHP desde cero. PHP (PHP Hypertext Pre-processor) es un lenguaje de programación diseñado para el desarrollo web con contenido."/>
+    <meta name="Subject" content="Aprender a programar PHP desde cero, con ejercicios practicos."/>
+    <meta name="robots" content="index,follow">
+    <!-- ojas de estilos personalizado y bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/css/personal.css">
+
+    <script type="text/javascript" src="js/js/bootstrap.min.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+        </script>
+
+</head>
+<body >
+	<!-- contenedor fluido -->	
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" >
+				<br>
+				<img src="img/sena.png" class="img-responsive img-rounded" alt="Aprenda php gratis" width="100%" height="50%">
+			</div>
+			<div class="col-md-8" style="text-aling":leght;">
+				<label style="text-align:left;">Direcciòn zonal</label>
+				<input type="text" name="drzonal" maxlength="100" class="form-control" required>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+			<div class="row">
+			<div class="col-md-12" >
+			
+                    <form action="envia.php" method="post">
+                    	<label >CFP/UCP/ESCUELA</label>
+                        <input type="text" name="nombres" placeholder="Nombre de la escuela" maxlength="100" class="form-control" required>
+                        <br>
+                        <label >ESTUDIANTE</label>
+                        <input type="text" name="estudiante" placeholder="Nombre completo" maxlength="100" class="form-control" required>
+                        <br>
+             <div class="row">
+             <div class="cold-md-5">
+                        	<label>ID</label>
+                        	<input type="text" name="ID" placeholder="Escriba su ID" maxlength="100" class="form-control" required><br>
+                        	</div><br><br>
+                        	<div class="cold-md-1">   </div>
+                        	<div class="cold-md-6">
+                        	<label>BLOQUE</label>
+                        	<input type="text" name="bloque" placeholder="Ecriba su bloque" maxlength="100" class="form-control" required>
+                        	</div>
+                        </div>
+                        
+                        <br>
+                        <label>CARRERA</label>
+						<select name="cmbdistrito" placeholder="Elegir su paìs" maxlength="100" class="form-control" required>
+							<option>	Elegir su carrera...	</option>
+						  	<option>	Diseño y desarrollo web	</option>
+							<option>	Desarrollo de Software	</option>
+							<option>	Diseño Gráfico Digital	</option>
+							
+						</select>
+                        <br>
+                        <label>INSTRUCTOR</label>
+                        <input type="text" name="prof" placeholder="El nombre del instructor" maxlength="100" class="form-control" required>
+                        <br>
+                        <div class="row">
+             <div class="cold-md-4">
+             			<label>SEMESTRE</label>
+                        <input type="text" name="semst" placeholder="Escriba el nivel del nùmero" maxlength="20" class="form-control" required>
+                        </div>
+                        <div class="cold-md-4">
+                        <label>DEL</label>
+                        <input type="date" name="inicio" placeholder="00/00/00" maxlength="20" class="form-control" required>
+                        </div>
+                        <div class="cold-md-4">
+                        <label>AL</label>
+                        <input type="date" name="fin" placeholder="00/00/00" maxlength="20" class="form-control" required>
+                        </div></div><br>
+                        
+ 						
+
+                        <input type="submit" class="btn btn-success btn-lg" value="Enviar">
+                    </form>
+                    
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container" style="background-color: ;">
+		<div class="row">
+			<div class="col-md-12">
+				<p style="text-align: center;">____________________________________________________________________________________________________________________________________________</p>
+				<br>
+			</div>
+			<div class="cold-md-12" style="background-color: rgba(0,0,0,0.3);">
+				<h1>"</h1><h3 style="text-align: center;">EL FUTURO ESTA EN NUESTRAS MANOS</h3><h1 style="text-align: right;">"</h1>
+			</div>
+		</div>
+	</div>
+	<br>
+	
+</body>
+</html>
